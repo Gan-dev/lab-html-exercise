@@ -74,6 +74,7 @@ header > div {
   }
   .spaceBarContainer div a{
     text-decoration: none;
+    padding: 0px 0.4rem;
   }
   #join{
     border: 1px solid grey;
@@ -81,7 +82,7 @@ header > div {
 #button{
     background-color: #fb3e44;
     color: white;
-    padding: 0.5rem;
+    padding: 5px;
     
   }
 
@@ -89,10 +90,94 @@ header > div {
 
 section{
   height: 600px;
+  
 }
 .section1  {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+h1{
+  font: 1em poppins;
+  font-size: 4rem;
+}
+.section1 article{
+  font-size: 20px;
+  margin: 0 35rem
+}
+.section1 div{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
   align-items: center;
 }
+.section1 div a{
+  text-decoration: none;
+  
+  
+}
+#button1{
+  background-color: #fb3e44;
+  color: white;
+  padding: 10px 30px;
+  box-shadow: 10px 10px 25px 1px rgba(0,0,0,0.55);
+}
+/* Section2*/
+.section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2 img{
+  width: 15%;
+  margin-bottom: 2rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+.section2 article{
+  font-size: 18px;
+  margin: 0 35rem;
+  text-align: center;
+}
+/* Section3 */
+.section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 100px;
+}
+.section3 img{
+  width: 8%;
+}
+.sectionConteiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.sectionConteiner div{
+  padding: 0px 2rem;
+}
+h3{
+  font-size:1rem;
+  color: #fb3e44;
+}
+.sectionConteiner p{
+  font-size: 0.9rem;
+}
 
+.section3 a{
+  text-decoration: none;
+  margin-top: 6rem;
+  color: white;
+  font-size: 1.5rem;
+  background-color: black;
+  padding: 10px 70px;
+  box-shadow: 10px 10px 25px 1px rgba(0,0,0,0.75);
+}
